@@ -50,7 +50,7 @@ async function paginaSiguiente(){
 
 async function mostrarPokemon(pokemon){
     return `
-    <div id= "pokemon_${pokemon.name}" style = "display: inline-block">
+    <div id= "pokemon_${pokemon.name}" class="card_pokemon"style = "display: inline-block">
         <figure>
             <img src="${pokemon.sprites.front_default}" alt="${pokemon.name} image" style="width:10vw">
             <figcaption>${pokemon.name} image</figcaption>
